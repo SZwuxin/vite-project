@@ -1,4 +1,5 @@
 // import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import '../App.css'
 
 function Main() {
@@ -7,7 +8,8 @@ function Main() {
   return (
     <>
       <h2>This is my personal website built using vite, react and run using bun</h2>
-      
+      <p> Code for this website is located in this <a target='_blank'
+            rel='noopener noreferrer' href="https://github.com/SZwuxin/vite-project">github link</a></p>
       {/*<div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
