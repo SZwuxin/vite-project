@@ -5,8 +5,10 @@ import {
     Route,
 } from "react-router-dom";
 import Home from "./pages/main";
-import {GamePage} from "./pages/games";
+import {GamePage} from "./pages/games.tsx";
+import {ToolPage} from "./pages/tools.tsx";
 import {TimeLine} from "./pages/timeline";
+import { FactorFinder } from "./pages/tools/factorFinder";
  
 function App() {
     return (
@@ -15,7 +17,9 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/games" element={<GamePage />} />
+                <Route path="/tools" element={<ToolPage />} />
                 <Route path="/timeline" element = {<TimeLine/>} />
+                <Route path="/tools/factorFinder" element = {<FactorFinder />}/>
             </Routes>
         </Router>
     );
