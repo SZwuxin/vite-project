@@ -7,6 +7,12 @@ const Nav = () => {
                     <Link className="link" to="/">
                         Home
                     </Link>
+                    <Link className="link" to="/stories">
+                        Stories
+                    </Link>
+                    <Link className="link" to="/articles">
+                        Articles
+                    </Link>
                     <Link className="link" to="/games">
                         Games
                     </Link>

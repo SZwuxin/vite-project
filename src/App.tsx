@@ -7,6 +7,8 @@ import {
 import Home from "./pages/main";
 import {GamePage} from "./pages/games.tsx";
 import {ToolPage} from "./pages/tools.tsx";
+import {StoryPage} from "./pages/story.tsx";
+import {ArticlePage} from "./pages/article.tsx";
 import {TimeLine} from "./pages/timeline";
 import { FactorFinder } from "./pages/tools/factorFinder";
  
@@ -18,6 +20,8 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/games" element={<GamePage />} />
                 <Route path="/tools" element={<ToolPage />} />
+                <Route path="/stories" element={<StoryPage />} />
+                <Route path="/articles" element={<ArticlePage />} />
                 <Route path="/timeline" element = {<TimeLine/>} />
                 <Route path="/tools/factorFinder" element = {<FactorFinder />}/>
             </Routes>
