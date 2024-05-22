@@ -1,0 +1,8 @@
+.toggle {
+    display: flex;
+}
+
+.button {
+    margin-left: auto;
+    background-color: #242424;
+}
