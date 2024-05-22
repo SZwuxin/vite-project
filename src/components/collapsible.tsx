@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import { FaChevronDown } from "react-icons/fa";
 import './collapsible.css'
 
-export const Collapsible = ({date, word, image}) => {
+export const Collapsible = ({date, word, image}: {date:string, word:string, image:[url:string, width:number, height: number]}) => {
     const [open, setOpen] = useState(false);
     const toggle = () => {
         setOpen(!open);
