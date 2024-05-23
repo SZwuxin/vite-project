@@ -1,8 +1,6 @@
-// import { useState } from 'react'
 import '../App.css'
 
 function Main() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
@@ -20,7 +18,7 @@ function Main() {
         remains my exclusive creation, regardless of its quality. However, considering my artistic ability, I am taking a page out of <a target='_blank'
             rel='noopener noreferrer' href="https://thebestmotherfucking.website/">this website</a> to keep it lightweight and simple.</p>
       <h2>Website Vision and Pages:</h2>
-      <p>My website aims to be an accumulation of everything I want to create. It will feature six main pages accessible via the navigation bar: 
+      <p>My website aims to be an accumulation of everything I want to create. It will feature six main pages accessible via the navigation bar: </p> 
       <ul>
         <li>Stories page contains things I wish to write about.</li>
         <li>Articles page contains outside articles I find interesting. </li>
@@ -29,12 +27,7 @@ function Main() {
         <li>Main page, the one you are reading right now. </li>
         <li>Timeline page where I hope to maintain a diary-like record</li>
       </ul>
-         While I can't promise daily updates, I will complete the site. </p>      
-      {/*<div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-  </div>*/}
+      <p>   While I can't promise daily updates, I will complete the site. </p>      
     </>
   )
 }
