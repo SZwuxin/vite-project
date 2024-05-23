@@ -1,7 +1,8 @@
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom"; 
 import factorFinder from '../assets/factorFinder.jpg'
+import birthday from '../assets/birthday.jpg'
+import dice from '../assets/dice.jpg'
 import './tools.css';
 
 export const ToolPage = () => {
@@ -12,15 +13,41 @@ export const ToolPage = () => {
         <div className='card'>
         <Card>
           <Card.Body>
-            <Card.Title>Factor Finder</Card.Title>
+            <Card.Title className='cardTitle'>Factor finder</Card.Title>
             <Card.Img src={factorFinder} className='cardimg' />
 
-            <Card.Text>
+            <Card.Text className='cardText'>
               Find the factor of any integer!
             </Card.Text>
-            <Button variant="primary"><Link className="link" to="/tools/factorFinder">
-            Factor Finder
-                    </Link></Button>
+            <button ><Link className="toollink" to="/tools/factorFinder">
+            Factor finder
+                    </Link></button>
+          </Card.Body>
+        </Card>
+        <Card>
+          <Card.Body>
+            <Card.Title className='cardTitle'>Birthday faradox</Card.Title>
+            <Card.Img src={birthday} className='cardimg' />
+
+            <Card.Text className='cardText'>
+              See the birthday paradox in action!
+            </Card.Text>
+            <button ><Link className="toollink" to="/tools/birthdayParadox">
+            Birthday paradox
+                    </Link></button>
+          </Card.Body>
+        </Card>
+        <Card>
+          <Card.Body>
+            <Card.Title className='cardTitle'>Dice roller</Card.Title>
+            <Card.Img src={dice} className='cardimg' />
+
+            <Card.Text className='cardText'>
+              Roll the dice using dnd notation!
+            </Card.Text>
+            <button ><Link className="toollink" to="/tools/diceRoller">
+            Dice roller
+                    </Link></button>
           </Card.Body>
         </Card>
         </div>

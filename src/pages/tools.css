@@ -1,6 +1,21 @@
 
 
 .cardimg {
-    max-width: 8rem;
-    max-height: 12rem;
+    width: 12rem;
+    height: 12rem;
 }
+
+.card {
+    display: flex;
+    margin-right:2rem;
+}
+
+.cardTitle {
+    font-size: 28px;
+}
+
+.toollink {
+    text-align: center;
+    font-size:24px;
+}
+

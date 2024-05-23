@@ -9,7 +9,8 @@ export const TimeLine = () => {
         <Collapsible date='5/20' word='Added tools page and the first tools factor finder.' image={['src/assets/5_20_tools.jpg', 800, 300]}/>
         <Collapsible date='5/21' word='Revamped the main page to actually show something and added two new page that I will eventually get to.' image={['src/assets/5_21_main.jpg', 800, 920]}/>
         <Collapsible date='5/22' word='Revamp timeline page to have a collapsible component.' image={['src/assets/5_22_timeline.jpg', 800, 800]}/>
-        <Collapsible date='5/23' word='Probably update the games page.' image={['', 0, 0]}/>
+        <Collapsible date='5/23' word='Add two more tools!' image={['src/assets/5_23_timeline.jpg', 800, 600]}/>
+        <Collapsible date='5/24' word='Maybe finally games!' image={['',0,0]}/>
 
       </>
     );

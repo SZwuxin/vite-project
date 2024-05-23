@@ -11,6 +11,8 @@ import {StoryPage} from "./pages/story.tsx";
 import {ArticlePage} from "./pages/article.tsx";
 import {TimeLine} from "./pages/timeline";
 import { FactorFinder } from "./pages/tools/factorFinder";
+import { BirthdayParadox } from "./pages/tools/birthdayParadox.tsx";
+import { DiceRoller } from "./pages/tools/diceRoller.tsx";
  
 function App() {
     return (
@@ -24,6 +26,9 @@ function App() {
                 <Route path="/articles" element={<ArticlePage />} />
                 <Route path="/timeline" element = {<TimeLine/>} />
                 <Route path="/tools/factorFinder" element = {<FactorFinder />}/>
+                <Route path="/tools/birthdayParadox" element = {<BirthdayParadox />}/>
+                <Route path="/tools/diceRoller" element = {<DiceRoller />}/>
+
             </Routes>
         </Router>
     );

@@ -1,0 +1,8 @@
+.birthday {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.birthdayInput {
+    margin-left: 1rem
+}
