@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './games.css'
 
 export const NumberGuesser = () => {
     const [tries, setTries] = useState(0);  
@@ -75,13 +76,13 @@ export const NumberGuesser = () => {
         
         {success && (
             <>
-            <p> You have currectly guessed the number! It is {num} and you guessed it in {tries} tries. </p>
+            <p className='success'> You have currectly guessed the number! It is {num} and you guessed it in {tries} tries. </p>
             <button onClick={() => {restart()}}>Retry</button>
             </>
         )}
         {!success && (tries > 10) && (
             <>
-            <p> You failed to guess the number, it is {actualNum}. </p>
+            <p  className='fail'> You failed to guess the number, it is {actualNum}. </p>
             <button onClick={() => {restart()}}>Retry</button>
             </>
         )}
