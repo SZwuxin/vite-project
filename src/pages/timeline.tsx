@@ -10,7 +10,7 @@ export const TimeLine = () => {
         <Collapsible date='5/21' word='Revamped the main page to actually show something and added two new page that I will eventually get to.' image={['/5_21_main.jpg', 800, 920]}/>
         <Collapsible date='5/22' word='Revamp timeline page to have a collapsible component.' image={['/5_22_timeline.jpg', 800, 800]}/>
         <Collapsible date='5/23' word='Add two more tools!' image={['/5_23_timeline.jpg', 800, 600]}/>
-        <Collapsible date='5/24' word='Maybe finally games!' image={['',0,0]}/>
+        <Collapsible date='5/24' word='Added the first game Bagel! More to come' image={['',0,0]}/>
 
       </>
     );
