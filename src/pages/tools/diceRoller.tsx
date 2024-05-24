@@ -51,7 +51,7 @@ export const DiceRoller = () => {
     }
     return (
         <>
-        <label className='birthday'> Enter the dice roll to calculate, for example: 12d+3 <input className='birthdayInput' name="diceroll" value={dice} onInput={e => setD(e)}/>  </label>
+        <label className='birthday'> Enter the dice roll to calculate, for example: 12d6+3 <input className='birthdayInput' name="diceroll" value={dice} onInput={e => setD(e)}/>  </label>
         <Button variant="info" onClick={() => {calculateDice(dice)}}>Submit</Button>
         {display && (
             <p> The dice rolled {roll}, with the final result of {result} </p>
