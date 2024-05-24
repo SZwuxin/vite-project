@@ -15,7 +15,6 @@ export const DiceRoller = () => {
         const ro = []
         if (dice.includes('+')) {
             const sp: string[] = dice.split('+');
-            console.log(sp)
             const [before, after] = sp[0].split('d');
             for (let i: number = 0; i < parseInt(before); i++) {
                 const rand: number = getRandomInt(parseInt(after))+1;

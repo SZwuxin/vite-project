@@ -1,8 +1,8 @@
 import Card from 'react-bootstrap/Card';
 import { Link } from "react-router-dom"; 
-import factorFinder from '../assets/factorFinder.jpg'
-import birthday from '../assets/birthday.jpg'
-import dice from '../assets/dice.jpg'
+import factorFinder from '/factorFinder.jpg'
+import birthday from '/birthday.jpg'
+import dice from '/dice.jpg'
 import './tools.css';
 
 export const ToolPage = () => {
