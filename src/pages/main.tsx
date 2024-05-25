@@ -20,7 +20,7 @@ function Main() {
       <h2>Website Vision and Pages:</h2>
       <p>My website aims to be an accumulation of everything I want to create. It will feature six main pages accessible via the navigation bar: </p> 
       <ul>
-        <li>Stories page contains things I wish to write about.</li>
+        <li>Stories page contains things I wish to write about or good stories I have read.</li>
         <li>Articles page contains outside articles I find interesting. </li>
         <li>Games page contains games initially written in python and later adapted to React.</li>
         <li>Tools page contains useful tools, similar to games page.</li>
