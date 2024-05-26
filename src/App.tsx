@@ -15,6 +15,7 @@ import { BirthdayParadox } from "./pages/tools/birthdayParadox.tsx";
 import { DiceRoller } from "./pages/tools/diceRoller.tsx";
 import { NumberGuesser } from "./pages/games/numberGuesser.tsx";
 import { SqliteTest } from "./pages/stories/sqliteTest.tsx";
+import { InterestCalculator } from "./pages/tools/interestCalculator.tsx";
  
 function App() {
     return (
@@ -30,6 +31,7 @@ function App() {
                 <Route path="/tools/factorFinder" element = {<FactorFinder />}/>
                 <Route path="/tools/birthdayParadox" element = {<BirthdayParadox />}/>
                 <Route path="/tools/diceRoller" element = {<DiceRoller />}/>
+                <Route path="/tools/interestCalculator" element = {<InterestCalculator/>}/>
                 <Route path="/games/numberGuesser" element = {<NumberGuesser />}/>
                 <Route path="/stories/sqliteTest" element = {<SqliteTest />}/>
 

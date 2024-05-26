@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import factorFinder from '/factorFinder.jpg'
 import birthday from '/birthday.jpg'
 import dice from '/dice.jpg'
+import calculator from '/calculator.jpg'
 import './tools.css';
 
 export const ToolPage = () => {
@@ -37,6 +38,7 @@ export const ToolPage = () => {
                     </Link></button>
           </Card.Body>
         </Card>
+       
         <Card>
           <Card.Body>
             <Card.Title className='cardTitle'>Dice roller</Card.Title>
@@ -47,6 +49,21 @@ export const ToolPage = () => {
             </Card.Text>
             <button ><Link className="toollink" to="/tools/diceRoller">
             Dice roller
+                    </Link></button>
+          </Card.Body>
+        </Card>
+        </div>
+        <div  className='card'>
+        <Card>
+          <Card.Body>
+            <Card.Title className='cardTitle'>Interest calculator</Card.Title>
+            <Card.Img src={calculator} className='cardimg' />
+
+            <Card.Text className='cardText'>
+              Calculate interest earned!
+            </Card.Text>
+            <button ><Link className="toollink" to="/tools/interestCalculator">
+            Interest calculator
                     </Link></button>
           </Card.Body>
         </Card>
