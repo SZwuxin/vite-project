@@ -14,6 +14,7 @@ export const TimeLine = () => {
         <Collapsible date='5/25' word='Tried to implement sqlite but running into build issues... So instead I added some links to stories and articles page.' image={['',0,0]}/>
         <Collapsible date='5/26' word='Added a new tool to calculate interest!' image={['',0,0]}/>
         <Collapsible date='5/27' word='Memorial day, likely no update' image={['',0,0]}/>
+        <Collapsible date='5/28' word='Busy day, updated some links for article & story page.' image={['',0,0]}/>
 
       </>
     );

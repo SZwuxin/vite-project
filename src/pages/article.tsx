@@ -4,7 +4,7 @@ import './articles.css'
 export const ArticlePage = () => {
     return (
       <>
-        <h2>This page is a collection of interesting articles I have found. To keep it simple I will include only the links.</h2>
+        <h2>This page has grown into a collection of links for interesting websites, articles, videos.</h2>
         
         <Link className="article" to="https://leetcode.com/studyplan/top-interview-150/">
             One list for code interview prep.
@@ -17,6 +17,18 @@ export const ArticlePage = () => {
         </Link>
         <Link className="article" to="https://github.com/kelseyhightower/kubernetes-the-hard-way">
             Great github link for learning kubernetes. 
+        </Link>
+        <Link className="article" to="https://www.youtube.com/@AndrejKarpathy">
+            One of the best channel for learning and getting hands on about Gen AI. 
+        </Link>
+        <Link className="article" to="https://www.bigocheatsheet.com/">
+            All of bigO in one link 
+        </Link>
+        <Link className="article" to="https://xkcd.com/">
+            XKCD
+        </Link>
+        <Link className="article" to="https://research.swtch.com/xz-script">
+            Breakdown of the script for the infamous xz attack.
         </Link>
       </>
     );
