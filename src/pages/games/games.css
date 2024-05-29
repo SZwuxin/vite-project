@@ -5,3 +5,7 @@
 .fail {
     color: red
 }
+
+.button {
+    border: 2px solid #04AA6D;
+}

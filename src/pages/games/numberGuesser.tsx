@@ -64,7 +64,7 @@ export const NumberGuesser = () => {
         </label>
         {!success && (tries <= 10) && (
             <>
-            <button onClick={() => {guessNumber()}}>Guess</button>
+            <button className='button' onClick={() => {guessNumber()}}>Guess</button>
             {result !== '' && (
                 <>
                 <p> You have {10-tries} guesses left! </p>
@@ -77,13 +77,13 @@ export const NumberGuesser = () => {
         {success && (
             <>
             <p className='success'> You have currectly guessed the number! It is {num} and you guessed it in {tries} tries. </p>
-            <button onClick={() => {restart()}}>Retry</button>
+            <button className='button' onClick={() => {restart()}}>Retry</button>
             </>
         )}
         {!success && (tries > 10) && (
             <>
             <p  className='fail'> You failed to guess the number, it is {actualNum}. </p>
-            <button onClick={() => {restart()}}>Retry</button>
+            <button className='button' onClick={() => {restart()}}>Retry</button>
             </>
         )}
         
