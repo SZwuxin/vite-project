@@ -15,6 +15,7 @@ export const TimeLine = () => {
         <Collapsible date='5/26' word='Added a new tool to calculate interest!' image={['',0,0]}/>
         <Collapsible date='5/27' word='Memorial day, likely no update' image={['',0,0]}/>
         <Collapsible date='5/28' word='Busy day but still updated some links for article & story page and made a new game!!!!!!' image={['',0,0]}/>
+        <Collapsible date='5/29' word='No update today and slower update cadence this week, website is in decent shape and I want to spend some time learning/practicing SQL' image={['',0,0]}/>
 
       </>
     );
