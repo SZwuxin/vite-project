@@ -17,6 +17,7 @@ import { NumberGuesser } from "./pages/games/numberGuesser.tsx";
 import { SqliteTest } from "./pages/stories/sqliteTest.tsx";
 import { InterestCalculator } from "./pages/tools/interestCalculator.tsx";
 import { QuickDraw } from "./pages/games/quickDraw.tsx";
+import { OnOptimism } from "./pages/stories/onOptimism.tsx";
  
 function App() {
     return (
@@ -36,6 +37,7 @@ function App() {
                 <Route path="/games/numberGuesser" element = {<NumberGuesser />}/>
                 <Route path="/games/quickDraw" element = {<QuickDraw />}/>
                 <Route path="/stories/sqliteTest" element = {<SqliteTest />}/>
+                <Route path="/stories/onOptimism" element = {<OnOptimism />}/>
 
             </Routes>
         </Router>
